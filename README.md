@@ -6,3 +6,19 @@ Visit this URL to execute the script.
 <http://glennchun.github.io/free-form-deformation/>
 
 This works best on **Firefox** where all edges of the lattice are always displayed. Some edges disappear or reappear on **Chrome**, depending on how you rotate the view.
+
+Convert this Entire project to Next.js + TypeScript + MUI
+
+And also can use:
+
+@react-three/gltfjsx – turns GLTFs into JSX components
+@react-three/drei – useful helpers for react-three-fiber
+@react-three/postprocessing – post-processing effects
+@react-three/flex – flexbox for react-three-fiber
+@react-three/xr – VR/AR controllers and events
+@react-three/cannon – physics based hooks
+@react-three/a11y – real a11y for your scene
+zustand – state management
+react-spring – a spring-physics-based animation library
+react-use-gesture – mouse/touch gestures
+leva – create GUI controls in seconds

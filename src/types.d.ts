@@ -1,17 +1,15 @@
-// 类型定义
-interface LatticeDeformerProps {
-	modelUrl: string;
-	resolution?: {
-		x: number;
-		y: number;
-		z: number;
-	};
-	width?: number;
-	height?: number;
+export interface FFDOptions {
+	minSpanCount: number;
+	maxSpanCount: number;
+	minSubdLevel: number;
+	maxSubdLevel: number;
+	initialSpanCounts: [number, number, number];
+	initialSubdLevel: number;
 }
 
-interface Resolution {
-	x: number;
-	y: number;
-	z: number;
+export interface ModelInfo {
+	type: string;
+	args: any[];
+	scale?: number;
+	meshScale?: number;
 }

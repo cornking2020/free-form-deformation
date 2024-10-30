@@ -1,5 +1,5 @@
 "use client";
-import LatticeDeformerComponent from '@/components/LatticeDeformerComponent';
+import { FFDScene } from '@/components/FFDScene';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
@@ -15,12 +15,7 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
-        <LatticeDeformerComponent
-          modelUrl="/model.glb"
-          resolution={{ x: 3, y: 3, z: 3 }}
-          width={800}
-          height={600}
-        />
+        <FFDScene />
       </Box>
     </Container>
   );
